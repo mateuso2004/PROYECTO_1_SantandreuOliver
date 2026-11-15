@@ -33,7 +33,7 @@ for listaventas, ventas in data.items():
         if producto not in ventas_por_producto:
             ventas_por_producto[producto] = 0
         ventas_por_producto[producto] += cantidad
-        
+
 cantidadmasvendida = 0
 productomasvendido = ""
 for producto, cantidad in ventas_por_producto.items():
